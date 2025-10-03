@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import 'nextra-theme-docs/style.css';
+@variant dark (&:where(.dark *));
+
+/* Custom sidebar styling */
+.nextra-sidebar {
+  border-right: 1px solid var(--x-color-gray-200);
+}
+
+.dark .nextra-sidebar {
+  border-right: 1px solid var(--x-color-neutral-800);
+}
+
+/* Footer styling */
+.tetrix-footer {
+  border-top: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  padding: 1rem 0;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-top: 2rem;
+}
+
+.dark .tetrix-footer {
+  border-top: 1px solid #374151;
+  background-color: #111827;
+  color: #9ca3af;
+}
