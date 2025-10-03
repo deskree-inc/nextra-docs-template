@@ -21,17 +21,20 @@ A production-ready documentation template built with [Nextra](https://nextra.sit
 1. **Click "Use this template"** button on GitHub (or clone this repo)
 
 2. **Clone your new repository:**
+
    ```bash
    git clone https://github.com/YOUR_ORG/YOUR_DOCS_REPO.git
    cd YOUR_DOCS_REPO
    ```
 
 3. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 4. **Start development server:**
+
    ```bash
    npm run dev
    ```
@@ -97,7 +100,7 @@ More content with [links](https://example.com)
 \`\`\`tsx
 // Code examples with syntax highlighting
 function hello() {
-  return "world";
+return "world";
 }
 \`\`\`
 ```
@@ -179,4 +182,3 @@ MIT License - see LICENSE file
 ---
 
 **Made with ❤️ by [Deskree](https://deskree.com)**
-

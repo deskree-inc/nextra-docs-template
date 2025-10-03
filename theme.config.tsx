@@ -8,8 +8,7 @@ const config = {
   chat: {
     link: "https://github.com/your-org/your-repo/discussions", // Community discussions link
   },
-  docsRepositoryBase:
-    "https://github.com/your-org/your-repo/tree/main/src/app", // Base path for "Edit this page" links
+  docsRepositoryBase: "https://github.com/your-org/your-repo/tree/main/src/app", // Base path for "Edit this page" links
   footer: {
     text: "© 2025 Your Company. All rights reserved.", // Footer copyright text
   },
@@ -19,4 +18,3 @@ const config = {
 };
 
 export default config;
-
